@@ -1,0 +1,36 @@
+_id: req_19f0348cb0ff42f0a599ffa7d3005b7b
+type: Request
+parentId: wrk_c81a721b308848c78cde4b201a149e75
+modified: 1676566361324
+created: 1676563463775
+url: http://localhost:8081/api/hotels
+name: CREATE HOTEL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"jnejnrjnrnv",
+    	"type":" 5-star",
+    	"city":"Shiridi",
+    	"address":"Maharastra",
+    	"distance":"5000",
+    	"title":"Best hotel",
+    	"desc":"Near to the main temple",
+    	"cheapestPrice":500
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676563463775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

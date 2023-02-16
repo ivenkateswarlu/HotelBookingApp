@@ -1,0 +1,21 @@
+_id: req_4e07322b8834499a9836c3066dea93d4
+type: Request
+parentId: wrk_c81a721b308848c78cde4b201a149e75
+modified: 1676566845602
+created: 1676566810741
+url: http://localhost:8081/api/hotels/63ee5f5d65e0e2ece917b38b
+name: DELETE HOTEL
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676566810741
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
