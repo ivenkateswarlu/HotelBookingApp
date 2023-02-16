@@ -29,10 +29,35 @@ mongoose.connection.on("disconnected",() => {
 
 //middleware
 
+
+app.use(express.json())
+
 app.use("/api/auth", authRoute);
 app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
+
+//error messages
+
+// app.use((err,req,res,next) => {
+
+//     return res.status(500).json("Hello ERROR from middleware ")
+
+// });
+
+
+app.use((err,req,res,next) => {
+    const errorStatus = err.status || 500
+    const errorMessage = err.message || "Something went wrong"
+    return res.status(errorStatus).json({
+        success: false,
+        status: errorStatus,
+        message: errorMessage,
+        stack: err.stack
+
+    })
+
+});
 
 // app.get("/",(req,res) => {
 //     res.send("Welcome to home page");
