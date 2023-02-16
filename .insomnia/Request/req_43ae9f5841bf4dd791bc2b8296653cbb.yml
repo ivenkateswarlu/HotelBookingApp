@@ -1,0 +1,21 @@
+_id: req_43ae9f5841bf4dd791bc2b8296653cbb
+type: Request
+parentId: wrk_c81a721b308848c78cde4b201a149e75
+modified: 1676567223296
+created: 1676567203840
+url: http://localhost:8081/api/hotels
+name: GET ALL HOTELS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676567203840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

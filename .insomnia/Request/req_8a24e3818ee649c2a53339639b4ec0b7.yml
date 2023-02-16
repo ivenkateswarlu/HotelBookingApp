@@ -1,0 +1,36 @@
+_id: req_8a24e3818ee649c2a53339639b4ec0b7
+type: Request
+parentId: wrk_c81a721b308848c78cde4b201a149e75
+modified: 1676566691930
+created: 1676566152101
+url: http://localhost:8081/api/hotels/63ee5c44757e6a82a0f7c7b4
+name: UPDATE HOTEL
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Hotel Kasi Annapurna",
+    	"type":" 4-star",
+    	"city":"Shiridi",
+    	"address":"Maharastra",
+    	"distance":"5000",
+    	"title":"Best hotel",
+    	"desc":"A bit far to the temple",
+    	"cheapestPrice":250
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676566152101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
