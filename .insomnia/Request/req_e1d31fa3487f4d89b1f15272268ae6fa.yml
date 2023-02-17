@@ -1,0 +1,30 @@
+_id: req_e1d31fa3487f4d89b1f15272268ae6fa
+type: Request
+parentId: wrk_c81a721b308848c78cde4b201a149e75
+modified: 1676584414102
+created: 1676583023550
+url: http://localhost:8081/api/auth/register
+name: AUTH REGISTER
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userName":"Jonathon",
+    	"email":"Jonathon@gamil.com",
+    	"password":"1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676583023550
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
